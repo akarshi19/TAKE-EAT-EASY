@@ -27,7 +27,7 @@
             app:srcCompat="@drawable/logo" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/loginbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -39,7 +39,7 @@
             android:textStyle="normal|bold" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/Regbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="45dp"
