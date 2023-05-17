@@ -22,6 +22,7 @@ public class FoodItemsScreenActivity extends AppCompatActivity {
                 Intent intent=new Intent(FoodItemsScreenActivity.this, Food1Activity.class);
                 startActivity(intent);
             } //888GodsOwnNumber
+            //888GodsOwnNumber
         });
     }
 }
