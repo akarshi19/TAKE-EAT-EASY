@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Food1Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/burimg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bur" />
+
+            <TextView
+                android:id="@+id/fname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Burger"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#EFE4E4"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/minus1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/minus" />
+
+                <TextView
+                    android:id="@+id/quan1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/plus1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/plussign" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ename1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/backgroundeditview"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Your Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/ephno1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/backgroundeditview"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/oderbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/buttongradient"
+            android:text="Order Now" />
+    </LinearLayout>
+
+</LinearLayout>
