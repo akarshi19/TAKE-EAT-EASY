@@ -23,6 +23,6 @@ public class FoodItemsScreenActivity extends AppCompatActivity {
                 startActivity(intent);
             } //888GodsOwnNumber
             //888GodsOwnNumber
-        });
+        });  //888GodsOwnNumber
     }
 }
