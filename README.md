@@ -1,6 +1,6 @@
 # TAKE-EAT-EASY
 
-A food delivA food delivery app
+A food delivery app
 Welcome to TAKE-EAT-EASY. A Food Delivery App! This application, built using Java and Android Studio, 
 allows users to order food  and have it delivered to their desired location. This app provides a convenient and seamless experience for users to satisfy their cravings with just a few taps.
 This README file provides an overview of the app, its features, and instructions for installation and usage.   
